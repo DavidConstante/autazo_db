@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80E5417C-6D2B-B504-9128-C82BBF18405F" name="vehicle">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:20:52 UTC</createdTime>
+<generatorID>2279D550-FB0B-BC1F-2293-A205E3021240</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1106226B-E4F9-E075-8A13-E9134EF62638">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:20:52 UTC</createdTime>
+<generatorID>1BD6EDA6-7450-6261-B307-2575CD6BF3EE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="9F8EC12C-1BF7-C95C-BEC5-CEDC56DD330E">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:20:52 UTC</createdTime>
+<generatorID>5DE59768-11FF-5DE2-E714-9E9C89C36157</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year" id="4DC2E7C6-580C-4147-CAE7-2B1BDDEF2FBA">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:20:52 UTC</createdTime>
+<generatorID>60396E34-0FFA-BA57-B53A-E6F6122A59AE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model" id="D3F0AD0A-27EF-93E4-A8F0-5AA8B9133DF8">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:20:52 UTC</createdTime>
+<generatorID>B5C8E944-DCE4-BD67-1C43-99228858B94A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="owner_id" id="1ED99DA5-CBC8-E85F-9B1D-0EF78270E845">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:20:52 UTC</createdTime>
+<generatorID>E84A33D4-F9BB-70F8-6BF1-88E82317965D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54CF4B8B-E870-16F4-D4F0-CBE3FDC5D4A0" referredColumn="8AB14382-1AA3-B0EC-3D2F-04B604F14AA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC0765E5-E20A-C686-3C57-6ADF934DCE24" name="vehicle_PK">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:20:52 UTC</createdTime>
+<generatorID>16B856E2-F778-140E-B928-B6FA7F70643E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1106226B-E4F9-E075-8A13-E9134EF62638"/>
+<colUsage columnID="1ED99DA5-CBC8-E85F-9B1D-0EF78270E845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43879C86-8D43-A86F-CAF0-8E15A29A07AE" name="vehicle_owner_FK">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:20:52 UTC</createdTime>
+<generatorID>8DB7296F-5238-052B-CF04-EE6AC40AF40B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ED99DA5-CBC8-E85F-9B1D-0EF78270E845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

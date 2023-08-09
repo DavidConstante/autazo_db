@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="73EF73C9-B203-4C56-7CBB-52FA2DFCA6D3" name="owner" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="A28C7EC8-6E87-F182-30E4-A31B2F2250E6" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="80E5417C-6D2B-B504-9128-C82BBF18405F" name="vehicle" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="A28C7EC8-6E87-F182-30E4-A31B2F2250E6" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="54CF4B8B-E870-16F4-D4F0-CBE3FDC5D4A0" name="vehicle_owner_FK" containerID="80E5417C-6D2B-B504-9128-C82BBF18405F" refContainerID="73EF73C9-B203-4C56-7CBB-52FA2DFCA6D3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="A28C7EC8-6E87-F182-30E4-A31B2F2250E6" propertySourceId="73EF73C9-B203-4C56-7CBB-52FA2DFCA6D3" propertyTargetId="80E5417C-6D2B-B504-9128-C82BBF18405F"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

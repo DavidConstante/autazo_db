@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2279D550-FB0B-BC1F-2293-A205E3021240" name="vehicle">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:19:27 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="6173CCFB-860C-0D2E-C1DF-6B0733F1D8DC" value="true"/>
+<item key="A28C7EC8-6E87-F182-30E4-A31B2F2250E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1BD6EDA6-7450-6261-B307-2575CD6BF3EE">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:19:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="6173CCFB-860C-0D2E-C1DF-6B0733F1D8DC" value="true"/>
+<item key="A28C7EC8-6E87-F182-30E4-A31B2F2250E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="5DE59768-11FF-5DE2-E714-9E9C89C36157">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:19:52 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="6173CCFB-860C-0D2E-C1DF-6B0733F1D8DC" value="true"/>
+<item key="A28C7EC8-6E87-F182-30E4-A31B2F2250E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="60396E34-0FFA-BA57-B53A-E6F6122A59AE">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:19:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="6173CCFB-860C-0D2E-C1DF-6B0733F1D8DC" value="true"/>
+<item key="A28C7EC8-6E87-F182-30E4-A31B2F2250E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="model" id="B5C8E944-DCE4-BD67-1C43-99228858B94A">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:19:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="6173CCFB-860C-0D2E-C1DF-6B0733F1D8DC" value="true"/>
+<item key="A28C7EC8-6E87-F182-30E4-A31B2F2250E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="E84A33D4-F9BB-70F8-6BF1-88E82317965D">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:20:43 UTC</createdTime>
+<generatorID>8DB7296F-5238-052B-CF04-EE6AC40AF40B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="6173CCFB-860C-0D2E-C1DF-6B0733F1D8DC" value="true"/>
+<item key="A28C7EC8-6E87-F182-30E4-A31B2F2250E6" value="true"/>
+</engineerTo>
+<referedAttribute>648E32A5-C2EE-A4D1-5275-BEE2B7D5FFAC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16B856E2-F778-140E-B928-B6FA7F70643E" name="vehicle PK">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:19:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="6173CCFB-860C-0D2E-C1DF-6B0733F1D8DC" value="true"/>
+<item key="A28C7EC8-6E87-F182-30E4-A31B2F2250E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BD6EDA6-7450-6261-B307-2575CD6BF3EE</attributeRef>
+<attributeRef>E84A33D4-F9BB-70F8-6BF1-88E82317965D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

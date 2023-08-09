@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="model" id="FA47840B-27A8-F76A-CC42-A8568F5C981E" version="3.5">
+<createdBy>celim</createdBy>
+<createdTime>2023-08-09 21:16:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FA47840B-27A8-F76A-CC42-A8568F5C981E</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4729D85B-249E-1717-0105-ED1125D4D7E4">
+<designStoragePath>C:\Users\celim\OneDrive\Escritorio\model</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
